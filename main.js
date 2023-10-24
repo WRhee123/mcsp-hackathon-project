@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // document.body.appendChild(container)
 
 
-
+document.body.style.backgroundColor = "black"
     
     
     let heading = document.createElement("h1");
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     heading.style.color = "tomato";
     heading.style.fontSize = "80px";
      heading.style.textAlign = "center";
-     heading.style.fontFamily = "fantasy"
+     heading.style.fontFamily = "Valorant"
      document.body.prepend(heading);
 
      let div = document.createElement("div");
@@ -35,12 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
      agents.style.height = "80px";
      agents.style.width = "150px";
      agents.style.marginRight = "50px";
-     agents.style.fontFamily = "fantasy"
+     agents.style.fontFamily = "Valorant"
      agents.style.color = "tomato";
      agents.style.fontSize = "30px"
      div.appendChild(agents);
     $(agents).click(function() {
         $(".slick-carousel").toggle()
+        $(agents).show();
         agentsSlider
     })
 
@@ -60,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
      maps.style.height = "80px";
      maps.style.width = "150px";
      maps.style.marginRight = "50px";
-     maps.style.fontFamily = "fantasy"
+     maps.style.fontFamily = "Valorant"
      maps.style.color = "tomato";
      maps.style.fontSize = "30px"
      div.appendChild(maps);
@@ -123,5 +124,6 @@ document.addEventListener("DOMContentLoaded", function() {
         cssEase: 'linear'
       });
     })
+
 
 });

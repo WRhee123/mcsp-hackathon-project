@@ -1,5 +1,11 @@
-.slick-carousel {
-    width: 350px;
-    height: 350px;
-    margin: 50px;
+@font-face{
+    font-family: myFont;
+    src:url(Valorant.ttf)
+}
+
+h1{
+    font-family: myFont;
+}
+body {
+    background-color: "black" !important;
 }
