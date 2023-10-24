@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // document.body.appendChild(container)
 
 
-document.body.style.backgroundColor = "black"
+document.body.style.backgroundColor = "lightSalmon"
     
     
     let heading = document.createElement("h1");
@@ -38,6 +38,7 @@ document.body.style.backgroundColor = "black"
      agents.style.fontFamily = "Valorant"
      agents.style.color = "tomato";
      agents.style.fontSize = "30px"
+     agents.style.backgroundColor = "dimgray"
      div.appendChild(agents);
     $(agents).click(function() {
         $(".slick-carousel").toggle()
@@ -64,6 +65,7 @@ document.body.style.backgroundColor = "black"
      maps.style.fontFamily = "Valorant"
      maps.style.color = "tomato";
      maps.style.fontSize = "30px"
+     maps.style.backgroundColor = "dimgray"
      div.appendChild(maps);
      $(maps).click(function() {
         $(".slick-carousel").hide();
